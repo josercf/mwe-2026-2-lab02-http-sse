@@ -7,9 +7,11 @@
   "forwardPorts": [
     3000,
     8080,
-    8081
+    8081,
+    11434
   ],
   "postCreateCommand": "bash .devcontainer/post-create.sh",
+  "postStartCommand": "bash .devcontainer/post-start.sh",
   "remoteEnv": {
     "GITHUB_TOKEN": "${localEnv:GITHUB_TOKEN}"
   },
