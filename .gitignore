@@ -21,3 +21,6 @@ obj/
 dist/
 build/
 *.log
+
+# Dados gerados em tempo de execucao pelo coletor
+data/
